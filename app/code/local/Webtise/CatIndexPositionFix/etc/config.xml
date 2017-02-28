@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Webtise_CatIndexPositionFix>
+            <version>1.0.0</version>
+        </Webtise_CatIndexPositionFix>
+    </modules>
+    <global>
+        <models>
+            <catalog_resource>
+                <rewrite>
+                    <product_collection>Webtise_CatIndexPositionFix_Model_Resource_Product_Collection</product_collection>
+                </rewrite>
+            </catalog_resource>
+        </models>
+    </global>
+</config>

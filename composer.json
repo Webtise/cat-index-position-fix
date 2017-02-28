@@ -1,0 +1,15 @@
+{
+  "name": "webtise/cat-index-position-fix",
+  "description": "Magento 1 extension to fix core error when using flat_product and calling addAttributeToSort on a product collection.",
+  "type": "magento-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Carter",
+      "email": "josh@webtise.com",
+      "homepage": "http://www.webtise.com",
+      "role": "Developer"
+    }
+  ]
+}
