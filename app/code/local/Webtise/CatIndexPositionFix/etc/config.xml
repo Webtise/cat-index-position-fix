@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Webtise_CatIndexPositionFix>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </Webtise_CatIndexPositionFix>
     </modules>
     <global>
