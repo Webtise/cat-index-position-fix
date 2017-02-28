@@ -1,5 +1,10 @@
 # Webtise - Cat Index Position Fix
 An extension to fix an error we have come accross quite a few times in Magento 1. With Flat Product enabled, when using any block that makes a call to *addAttributeToSort()* causes the following error:
+```
+"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cat_index_position' in 'order clause', query was: SELECT DISTINCT `e`.`attribute_set_id` FROM `catalog_product_flat_11` AS `e`
+ INNER JOIN `catalog_category_product_index` AS `cat_index` ON cat_index.product_id=e.entity_id AND cat_index.store_id=11 AND cat_index.visibility IN(2, 4) AND cat_index.category_id = '393' AND cat_index.is_parent=1
+ INNER JOIN `catalog_product_index_price` AS `price_index` ON price_index.entity_id = e.entity_id AND price_index.website_id = '1' AND price_index.customer_group_id = 0 ORDER BY `cat_index_position` ASC, `cat_index`.`position` ASC LIMIT 12"
+```
 
 # Installation
 
